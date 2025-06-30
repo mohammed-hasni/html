@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION</title>
+</head>
+<body background="html.jpg.jpg" align="center">
+
+    <h1><u>STUDENT APPLICATION</u></h1>
+     <table border="50px" align="center">
+        <th><h2>HR INSTITUTE</h2></th>
+     </table>
+
+
+    <!-- Form start -->
+
+    <form action="" method="post" enctype="multipart/form-data">
+
+
+           <fieldset>
+        <legend><h2>Personal informatons</h2></legend>
+
+            
+       <p>
+         <label for="Name">Name:</label> <br>
+        <input type="text" name="Name" id="Name" size="20px">
+
+       </p>
+
+        <p>
+            <label for="age">Age:</label><br>
+        <input type="number" name="age" id="age" size="40px" min="18" max="30"> <br> <br>
+
+        </p>
+        
+        <p>
+  
+            <label for="dob">Date of Birth:</label> <br>
+            <input type="date" name="date" id="dob">
+
+        </p>
+
+        <p>
+            <label for="status">status:</label> <br>
+        <input type="radio" name="status" id="Single"   value="Single" checked><label for="Single">Single</label>
+        <input type="radio" name="status" id="Married"  value="Married"><label for="Married">Married</label>
+        <input type="radio" name="status"  id="Divorced" value="Divorced"><label for="Divorced">Divorced</label>
+
+        </p>
+
+
+        <p>
+            <label for="Number">Phone Number:</label> <br>
+        <input type="number" name="contact" id="Number" >
+
+        </p>
+
+        <p>
+            <label for="email">E-MAIL:</label> <br>
+            <input type="email" name="email-address" id="email" size="40">
+        </p>
+
+        <p>
+            <label for="image">Submit your certificates:</label> <br>
+            <input type="image" name="image" id="image">
+        </p>
+
+
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend><h3>PROFESSIONAL INFORMATIONS</h3></legend>
+
+
+        <p>
+
+
+            <label for="skills">Skills:</label><br>
+            <textarea name="skills" id="skills" cols="35" rows="4"  placeholder="describe here"></textarea> <br><br>
+
+
+
+            <label for="qualifications">Qualifications:</label> <br>
+        <input type="checkbox" name="he-has" id="maths"><label for="maths">Maths</label>
+        <input type="checkbox" name="he-has" id="sceince"><label for="sceince">Sceince</label>
+        <input type="checkbox" name="he-has" id="tamil"><label for="tamil">Tamil</label>
+        <input type="checkbox" name="he-has" id="english"><label for="english">English</label>
+        </p>
+
+        <p>
+            <label for="url">Previous Project:</label>
+            <input type="url" name="url" id="url">
+        </p>
+
+
+
+
+    </fieldset>
+
+    <fieldset>
+        <legend><h3>SELECT</h3></legend>
+
+        <p>
+            <table border="1px" cellpadding="20px" align="center">
+
+
+                <th colspan="2" bgcolor="green">SELECT YOUR SUBJECTS</th>
+
+                </tr>
+                <tr>
+                    <td>Informaton Technology</td>
+                    <td><label for="yes">yes</label>            <input type="radio" name="select" id="yes" value="yes"> 
+                        <label for="no">No</label>              <input type="radio" name="select" id="no" value="no"></td>
+                </tr>
+
+                <tr>
+                    <td>Network Engineering</td>
+                    <td> <label for="yes">yes</label>           <input type="radio" name="sel" id="yes" value="yes" >
+                         <label for="no">No</label>             <input type="radio" name="sel" id="no" value="no"></td>
+                </tr>
+
+                <tr>
+                    <td>Artificial Intelligence</td>
+                    <td> <label for="yes">yes</label>           <input type="radio" name="sele" id="yes" value="yes" >
+                         <label for="no">No</label>             <input type="radio" name="sele" id="no" value="no"></td>
+                </tr>
+            </table>
+        </p>
+
+        <p>
+            <label for="time">Free time</label> <br>
+            <input type="time" name="time" id="time">
+        </p>
+        <p>
+            <label for="week">week</label> <br>
+            <input type="week" name="week" id="week">
+        </p>
+
+
+        <p>
+            <label for="search">Ask Your Questions</label> <br>
+            <input type="search" name="search" id="search">
+        </p>
+
+
+    </fieldset>
+
+    <center><input type="submit" name="submit" id="submit" value="submit"></center>
+
+
+
+    </form>
+    <!-- Form ends -->
+
+
+    
+</body>
+</html>
